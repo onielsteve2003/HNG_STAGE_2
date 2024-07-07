@@ -1,0 +1,9 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "dataworkspace.excludedProjects": [
+    "hng11/hng11.sqlproj"
+  ],
+  "cSpell.enableFiletypes": [
+    "!typescript"
+  ]
+}

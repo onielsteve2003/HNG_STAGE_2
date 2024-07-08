@@ -44,7 +44,7 @@ describe('Auth Endpoints', () => {
 					firstName: 'John',
 					lastName: 'Doe',
 					email: user1Email,
-					password: 'C0mpl3xP@ssw0rd',
+					password: 'password',
 					phone: '1234567890',
 				}),
 			});
@@ -87,7 +87,7 @@ describe('Auth Endpoints', () => {
 					firstName: 'Jane',
 					lastName: 'Doe',
 					email: user2Email,
-					password: 'C0mpl3xP@ssw0rd',
+					password: 'password',
 					phone: '0987654321',
 				}),
 			});
@@ -130,7 +130,7 @@ describe('Auth Endpoints', () => {
 					firstName: 'Juliet',
 					lastName: 'Doe',
 					email: user3Email,
-					password: 'C0mpl3xP@ssw0rd',
+					password: 'password',
 					phone: '0987654321',
 				}),
 			});
@@ -197,7 +197,7 @@ describe('Auth Endpoints', () => {
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({
 					email: user1Email,
-					password: 'C0mpl3xP@ssw0rd',
+					password: 'password',
 				}),
 			});
 
@@ -235,7 +235,7 @@ describe('Auth Endpoints', () => {
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({
 					email: user2Email,
-					password: 'C0mpl3xP@ssw0rd',
+					password: 'password',
 				}),
 			});
 
@@ -273,7 +273,7 @@ describe('Auth Endpoints', () => {
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({
 					email: user3Email,
-					password: 'C0mpl3xP@ssw0rd',
+					password: 'password',
 				}),
 			});
 

@@ -5,12 +5,12 @@ export const userPayloadSchema = z.object({
 	lastName: z.string().min(1),
 	email: z.string().email('email must be a valid email address'),
 	password: z.string(),
-	phone: z.string(),
+	phone: z.string().optional(),
 });
 
 export const loginPayloadSchema = z.object({
   email: z.string().email('email must be a valid email address'),
-  password: z.string().min(8),
+  password: z.string().min(1),
 });
 
 export const createOrganisationPayloadSchema = z.object({
